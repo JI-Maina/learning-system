@@ -21,7 +21,7 @@ export const navigation = [
   },
   {
     name: "become an instructor",
-    href: "/becomeaninstructor",
+    href: "/register",
   },
   {
     name: "login",
@@ -107,38 +107,17 @@ export const popularCourses = {
   ],
 };
 
-export const cta = {
-  title: "Register your team(s) today",
-  subtitle: "regestration starts in January",
-  buttonText: "Download form",
-};
-
-export const testimonial = {
-  title: "What people are saying about us",
+export const whatsNew = {
+  caption: "What’s New",
+  image: "/images/whatsnew.svg",
+  title: "Master new skills to drive your career",
   subtitle:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, ipsam",
-  persons: [
-    {
-      avatar: "/avatars/avatar.jpg",
-      name: "Josh Smith",
-      title: "Manager of Kenya United",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-    },
-    {
-      avatar: "/avatars/avatar1.jpg",
-      name: "Brandi Johns",
-      title: "Manager of Kenya United",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-    },
-    {
-      avatar: "/avatars/avatar.jpg",
-      name: "Paula Pfeffer",
-      title: "Manager of Kenya United",
-      message:
-        "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
-    },
+    "Get certified, master modern tech skills, and level up your career — whether you’re starting out or a seasoned pro. 95% of eLearning learners report our hands-on content directly helped their careers.",
+  newItems: [
+    { title: "Stay motivated with engaging instructors" },
+    { title: "Keep up with in the latest in cloud" },
+    { title: "Build skills your way, from labs to courses" },
+    { title: "Get certified with 100+ certification courses" },
   ],
 };
 

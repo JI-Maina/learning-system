@@ -1,3 +1,5 @@
+import { FaCheck } from "react-icons/fa";
+
 import { hero } from "./Data";
 
 const Hero = () => {
@@ -14,14 +16,25 @@ const Hero = () => {
           </div>
 
           <div className="flex-1 flex flex-col justify-end mt-12 lg:mt-0">
-            <p className="text-base font-medium mb-4">{title}</p>
+            <div className="flex gap-1">
+              <div className="inline-block px-1 py-1 text-[#ff581f]">
+                <FaCheck />
+              </div>
+              <p className="text-base font-medium mb-4">{title}</p>
+            </div>
             <h1 className="title mb-8">{subtitle}</h1>
 
             <div className="flex items-center gap-20 text-base font-medium mb-8">
-              <div>
+              <div className="flex gap-2 items-center">
+                <div className="inline-block px-1 py-1 rounded-full bg-orange text-white">
+                  <FaCheck />
+                </div>
                 <h4>Unlimited Courses</h4>
               </div>
-              <div>
+              <div className="flex gap-2 items-center">
+                <div className="inline-block px-1 py-1 rounded-full bg-orange text-white">
+                  <FaCheck />
+                </div>
                 <h4>24/7 Support</h4>
               </div>
             </div>

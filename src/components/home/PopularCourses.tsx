@@ -5,10 +5,10 @@ import { popularCourses } from "./Data";
 const PopularCourses = () => {
   const { title, subtitle, caption, courses } = popularCourses;
   return (
-    <section className="section pb-0 mt-20 lg:mt-0">
+    <section className="section pb-0">
       <div className="container mx-auto">
         <div>
-          <p className="text-center mb-4">{caption}</p>
+          <p className="text-center text-[#f66962] mb-4">{caption}</p>
           <h2 className="title text-center mb-8">{title}</h2>
           <p className="max-w-[639px] mx-auto mb-[50px] lg:mb-[50px]">
             {subtitle}

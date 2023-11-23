@@ -1,7 +1,8 @@
-import About from "@components/home/About";
 import Hero from "@components/home/Hero";
-import PopularCourses from "@components/home/PopularCourses";
 import Whyus from "@components/home/Whyus";
+import About from "@components/home/About";
+import WhatsNew from "@components/home/WhatsNew";
+import PopularCourses from "@components/home/PopularCourses";
 
 export default function Home() {
   return (
@@ -10,9 +11,7 @@ export default function Home() {
       <Whyus />
       <About />
       <PopularCourses />
-      {/* <CallToAction /> */}
-      {/* <Partners /> */}
-      {/* <Testimonial /> */}
+      <WhatsNew />
     </main>
   );
 }
